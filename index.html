@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simon-Game</title>
+
+  <!-- embedding fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  <!-- linking-up css -->
+    <link rel="stylesheet" href="C:\Users\Jahnavi\Desktop\WD\Simon_Game\Styles.css">
+
+
+  </head>
+
+  <body>
+    <h1>HAVE FUN PLAYING!!</h1>
+    <button onclick="setTimeout(changeText(), 3000)" class="start">START</button>
+    <br>
+    <button id="red" class="button" type="button" name="button"></button>
+    <button id="blue" class="button" type="button" name="button"></button>
+    <br>
+    <button id="yellow" class="button" type="button" name="button"></button>
+    <button id="green" class="button" type="button" name="button"></button>
+    <br>
+    <div class="rules">
+      <h2>How to play:</h2>
+      <ul>
+        <li>Press the START button. Simon will give the first signal. Repeat the signal by pressing the same color.</li>
+        <li>Simon gives the next signal. Repeat the first signal and next signal by pressing the same color, in order.</li>
+        <li>This goes on. Simon keeps giving signals and press the color blocks in order from beginning.</li>
+        <li>If you match the order from beginning you advance to next level, else you fail.</li>
+      </ul>
+    </div>
+
+  <!-- linking-up javascript and jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="C:\Users\Jahnavi\Desktop\WD\Simon_Game\script.js""></script>
+  </body>
+
+</html>
